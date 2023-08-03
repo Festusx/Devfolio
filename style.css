@@ -703,10 +703,13 @@ ABOUT CARD */
 
 hr {
   height: 1px;
-  background-color: cadetblue;
+  background-color: white;
   border: none;
 }
 
+#tr { 
+  color: cadetblue;
+}
 
 
 
