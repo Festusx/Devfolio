@@ -701,6 +701,12 @@ ABOUT CARD */
 
 .resume-bottom-item .icon { height: 28px;}
 
+hr {
+  height: 1px;
+  background-color: cadetblue;
+  border: none;
+}
+
 
 
 
