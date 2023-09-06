@@ -221,6 +221,7 @@ TYPOGRAPHY */
   font-size: var(--display-small);
   font-weight: var(--weight-regular);
   line-height: 44px;
+  /* color: black; */
 }
 
 .headline-large { 
@@ -293,6 +294,7 @@ TYPOGRAPHY */
   font-weight: var(--weight-medium);
   line-height: 20px;
   letter-spacing: 0.1px;
+  color: black;
 }
 
 .label-medium { 
@@ -584,10 +586,21 @@ TYPOGRAPHY */
 
 .hero-content { 
   max-width: 500px;
+  background-color: cadetblue;
+    color: var(--on-surface-variant);
+    position: relative;
+    left: 0px;
+    /* margin-inline: 16px; */
+    padding: 16px;
+    margin-block-start: 24px;
+    border: 2px solid black;
+    border-radius: var(--shape-corner-medium);
 }
 
 .hero .section-subtitle {
-  color: var(--on-surface-variant); }
+  color: var(--on-surface-variant);
+  font-family: var(--font-primary);
+  font-size: 1.7rem;                         }
 
 .hero .section-text { 
   margin-block: 5px 16px;
@@ -703,8 +716,12 @@ ABOUT CARD */
 
 hr {
   height: 1px;
-  background-color: white;
+  background-color: cadetblue;
+  /* background-color: var(--on-surface-variant); */
   border: none;
+}
+#line-col { 
+  background-color: black;
 }
 
 #tr { 
@@ -785,6 +802,9 @@ CONTACT ME */
   border-radius: var(--shape-corner-medium);
 }
 
+.send-btn {
+  color: cadetblue;
+}
 
 /* FOOTER */
 
