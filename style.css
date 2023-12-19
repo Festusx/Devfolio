@@ -869,3 +869,12 @@ CONTACT ME */
 
 
 }
+
+
+.hover-prop{
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: rgb(2, 2, 2);
+  font-size: 12px;
+  text-decoration: underline;
+}
